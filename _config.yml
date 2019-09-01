@@ -1,0 +1,13 @@
+# Site settings
+title: Hi, I'm Mareike.
+description: Mareike Baudewig's professional portfolio site
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+
+# User settings
+username: Mareike Baudewig
+user_description: I‘m a technical writer based in Karlsruhe, Germany. Before I started my professional career, I obtained a Master‘s degree in translation and interpreting from the Johannes Gutenberg university Mainz. I enjoy working with people to produce user-friendly and intuitive software that helps users get their work done efficiently. If you also think documentation is not just a necessary evil, but a way to ensure great user experience, feel free to reach out to me.
+user_title: Technical Writer
+email: mareikebaudewig@gmail.com
+
+exclude: ['package.json', 'src' , 'node_modules']

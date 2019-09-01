@@ -1,0 +1,137 @@
+.background {
+  background-image: url('/assets/img/leone-venter-VieM9BdZKFo-unsplash.jpg');
+  
+  display: flex;
+  vertical-align: bottom;
+  min-height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+.header {
+  font-family: 'Montserrat', sans-serif;
+  z-index: 1;
+  text-align: left;
+  color: $font-color;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  margin: 0 auto;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  .site-title {
+    font-size: 50px;
+	letter-spacing: -4px;
+    display: block;
+    line-height: 1;
+    color: $font-color;
+    @media only screen and (min-width:$cut){
+      margin: 0;
+      font-size: 76px;
+    }
+  }
+  .site-description {
+    font-size: 20px;
+    display: block;
+	letter-spacing: -1px;
+    line-height: 1;
+    color: $font-color;
+    margin-top: 10px;
+    @media only screen and (min-width:$cut){
+      font-size: 34px;
+    }
+  }
+}
+
+.header-links {
+  .link {
+    color: $font-color;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 10px;
+    @media only screen and (min-width:$cut){
+      font-size: 20px;
+    }
+  }
+}
+
+.header-icons {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+
+  text-align: center;
+  a {
+    // no borders
+    outline: 0 !important;
+    border: none !important;
+    outline-style: none !important;
+    -moz-outline-style: none !important;
+
+    padding: none;
+    margin: none;
+  }
+  .icon {
+    text-align: center;
+    color: $font-color;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 50%;
+    border: 2px solid $font-color;
+    transition: all .5s;
+    &:hover {
+      color: $main;
+      background: $font-color;
+    }
+    &:active {
+      color: $main;
+      background: #FFF;
+    }
+    @media only screen and (min-width:$cut) {
+      width: 30px;
+      height: 30px;
+      font-size: 30px;
+    }
+  }
+}
+
+.down {
+  color: $font-color;
+  position: absolute;
+  bottom: 25px;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer;
+  // no borders
+  outline: 0 !important;
+  border: none !important;
+  outline-style: none !important;
+  -moz-outline-style: none !important;
+  .icon {
+      position: absolute;
+      -webkit-transform-style: preserve-3d;
+      transform-style: preserve-3d;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      width: 100px;
+      height: 100px;
+      fill: #fff;
+      -webkit-animation: pulse 1.3s infinite;
+      animation: pulse 1.3s infinite;
+      &:hover {
+        color: $sec;
+      }
+      &:active {
+        color: $sec;
+      }
+  }
+}
