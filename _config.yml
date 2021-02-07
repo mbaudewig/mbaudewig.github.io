@@ -6,7 +6,10 @@ description: Mareike Baudewig's professional portfolio site
 
 # User settings
 username: Mareike Baudewig
-user_description: I‘m a technical writer based in Hamburg, Germany. Before I started my professional career, I obtained a Master‘s degree in translation and interpreting from the Johannes Gutenberg University Mainz. I enjoy working with people to produce user-friendly and intuitive software that helps users get their work done efficiently. If you also think documentation is not just a necessary evil, but a way to ensure great user experience, feel free to reach out to me.
+user_description: |
+  I‘m a technical writer based in Hamburg, Germany. Before I started my professional career, I obtained a Master‘s degree in translation and interpreting from the Johannes Gutenberg University Mainz. I enjoy working with people to produce user-friendly and intuitive software that helps users get their work done efficiently. 
+  
+  If you also think documentation is not just a necessity, but a way to ensure great user experience, feel free to reach out to me.
 user_title: Technical Writer
 email: mareikebaudewig@gmail.com
 
